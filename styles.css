@@ -1,0 +1,30 @@
+body{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ background-color: rgb(247, 167, 216);
+}
+header{
+    background-color: rgb(230, 104, 183);
+}
+img{
+    width: 280px;
+}
+p, h1{
+    font-size: 5rem;
+}
+.cat{
+    display:flex;
+    gap: 250px;
+    font-size: 2rem;
+}
+.opt{
+    display: flex;
+    gap:100px;
+}
+.button{
+    background-color: rgb(230, 104, 183);
+}
+.heads:hover{
+    width: 300px;
+}
