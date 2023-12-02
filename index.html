@@ -7,25 +7,25 @@
     <link rel="stylesheet" href="modnorm.min.css">
     <link rel="stylesheet" href="styles.css">
 </head>
-<body>
+<body onload = "wait()">
     <header>
         <h1>Cat heads vs tails!</h1>
     </header>
     <div class="cat">
         <a class="opt">
             <div class="hort">
-              <button id="heads"><img class="heads" src="dizzy-ginger-cat.png"></button>  
-              <button id="tails"><img class="tails" src="dizzy-tabby-cat.png"></button>  
+              <button id="heads"><img class="heads" src="heads.png"></button>  
+              <button id="tails"><img class="tails" src="tails.png"></button>  
             </div> 
                 <p class="choiceText">You choose:</p>
         </a>
         <a class="res">
-            <img src="dizzy-tabby-cat.png">
+            <img id="changeCat" src="">
             <p class="resultText">You get:</p>
         </a>
     </div>
-    <div class="button">
-        <p>Play again!</p>
+    <div class="winLose" >
+        <p>You: </p>
     </div>
     <script src="function.js"></script>
 </body>

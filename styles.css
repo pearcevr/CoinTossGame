@@ -35,7 +35,7 @@ p, h1{
 .hort img{
     margin-right: 30px;
 }
-.button{
+.winLose{
     margin-top: 50px;
     display: flex;
     background-color: rgb(249, 246, 248);
@@ -45,14 +45,17 @@ p, h1{
     box-shadow: 0 4px 6px rgb(182, 16, 118);
     align-items: center;
     justify-content: center;
-}
-.button:hover{
-    box-shadow: 0 6px 10px rgb(182, 16, 118);
-    transform: scale(1.01);
-    transition: all 0.2s;
+    font-size: 40px;
 }
 
 .heads:hover, .tails:hover{
     transform: scale(1.02);
     transition: all 0.2s;
+}
+.choiceText, .resultText{
+    font-size: 40px;
+}
+button {
+    background-color: rgba(0,0,0,0); 
+    border: none;
 }
